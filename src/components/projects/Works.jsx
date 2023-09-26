@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import { useState } from 'react';
 import { projectsData } from './Data';
 import { projectsNav } from './Data';
 import WorksItems from './WorksItems';

@@ -2,7 +2,6 @@ import React from "react";
 import "./skills.css"
 import Frontend from "./Frontend.jsx"
 import Backend from "./Backend.jsx"
-import Langages from "./Langages.jsx"
 import Logiciels from "./Logiciel";
 import Environnement from "./Environnement"
 
