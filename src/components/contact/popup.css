@@ -1,0 +1,50 @@
+/* Popup message container */
+.popup__message-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    animation: slideIn 0.5s ease-in-out 0.3s forwards;
+  }
+  
+  /* Checkmark animation */
+  .popup__checkmark {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    animation: checkmark 0.5s ease-in-out 0.5s forwards;
+  }
+  
+  /* Message text */
+  .popup__message-text {
+    font-size: 16px;
+  }
+  
+  /* Keyframes for animations */
+  @keyframes slideIn {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes checkmark {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  
