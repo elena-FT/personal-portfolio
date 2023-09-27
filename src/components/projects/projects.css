@@ -106,6 +106,14 @@ text-transform: capitalize;
     .work__img {
         width: 100%;
     }
+    .work__filters {
+        display: grid;
+        grid-template-columns: repeat(3,max-content);
+        align-items: center;
+        column-gap: 0.25rem;
+        margin-bottom: var(--mb-2);
+        justify-content: center;
+  }
   }
   
   /* For small devices */
@@ -113,8 +121,4 @@ text-transform: capitalize;
     .work__item {
         font-size: var(--small-font-size);
     }
-
-    .work__filters {
-        column-gap: 0.25rem;
-  }
 }
