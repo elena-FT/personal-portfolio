@@ -33,10 +33,6 @@ const Footer = () => {
                         <i className="bx bxl-github"></i>
                     </a>
                 </div>
-
-                <span className="footer__copy">
-                    &#169; Erynavia. All rights reserved.
-                </span>
             </div>
         </footer>
     )

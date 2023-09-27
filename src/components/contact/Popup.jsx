@@ -16,7 +16,7 @@ const Popup = ({ message }) => {
 
   return isVisible ? (
     <div className="popup__message-container">
-      <div className="popup__checkmark"></div>
+      <i className="bx bx-check-circle popup__checkmark"></i>
       <p className="popup__message-text">{message}</p>
     </div>
   ) : null;

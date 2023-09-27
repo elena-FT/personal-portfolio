@@ -3,7 +3,7 @@
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #28a745;
+    background-color: var(--color-yellow);
     color: #fff;
     border-radius: 4px;
     padding: 10px 20px;
@@ -15,11 +15,7 @@
   /* Checkmark animation */
   .popup__checkmark {
     width: 20px;
-    height: 20px;
-    border: 2px solid #fff;
-    border-radius: 50%;
     margin-right: 10px;
-    animation: checkmark 0.5s ease-in-out 0.5s forwards;
   }
   
   /* Message text */

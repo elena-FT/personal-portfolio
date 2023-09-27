@@ -10,7 +10,7 @@ const Environnement = () => {
                     <i className='bx bx-badge-check'></i>
                     <div>
                         <h3 className="skills__name">Linux</h3>
-                        <span className="skills__level">Advanced</span>
+                        <span className="skills__level">Intermediate</span>
                     </div>
                 </div>
 
@@ -28,7 +28,7 @@ const Environnement = () => {
                     <i className='bx bx-badge-check'></i>
                     <div>
                         <h3 className="skills__name">MacOS</h3>
-                        <span className="skills__level">lorem</span>
+                        <span className="skills__level">Advanced</span>
                     </div>
                 </div>
 
@@ -36,7 +36,7 @@ const Environnement = () => {
                     <i className='bx bx-badge-check'></i>
                     <div>
                         <h3 className="skills__name">iOS</h3>
-                        <span className="skills__level">lorem</span>
+                        <span className="skills__level">Intermediate</span>
                     </div>
                 </div>
             </div>

@@ -26,7 +26,7 @@ const Logiciels = () => {
                     <i className='bx bx-badge-check'></i>
                     <div>
                         <h3 className="skills__name">Blender</h3>
-                        <span className="skills__level">Advanced</span>
+                        <span className="skills__level">Basic</span>
                     </div>
                 </div>
 
@@ -44,7 +44,7 @@ const Logiciels = () => {
                     <i className='bx bx-badge-check'></i>
                     <div>
                         <h3 className="skills__name">Emacs</h3>
-                        <span className="skills__level">lorem</span>
+                        <span className="skills__level">Intermediate</span>
                     </div>
                 </div>
 
@@ -52,7 +52,7 @@ const Logiciels = () => {
                     <i className='bx bx-badge-check'></i>
                     <div>
                         <h3 className="skills__name">VS</h3>
-                        <span className="skills__level">lorem</span>
+                        <span className="skills__level">Advanced</span>
                     </div>
                 </div>
 
@@ -60,7 +60,7 @@ const Logiciels = () => {
                     <i className='bx bx-badge-check'></i>
                     <div>
                         <h3 className="skills__name">AWS</h3>
-                        <span className="skills__level">lorem</span>
+                        <span className="skills__level">Basic</span>
                     </div>
                 </div>
 
@@ -68,7 +68,7 @@ const Logiciels = () => {
                     <i className='bx bx-badge-check'></i>
                     <div>
                         <h3 className="skills__name">CSV</h3>
-                        <span className="skills__level">lorem</span>
+                        <span className="skills__level">Intermediate</span>
                     </div>
                 </div>
             </div>

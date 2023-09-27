@@ -56,7 +56,7 @@ const Data = () => {
                 Etudiante en école d'ingénieur en informatique
             </h3>
             <p className="home__descriptio">
-            J’ai 21 ans, et je suis originaire de Colmar. Curieuse, très organisée et méthodique, j'aime les nouveaux challenges.
+            I am 21 years old and originally from Colmar. Curious, highly organized, and methodical, I enjoy taking on new challenges.
             </p>
             <a href="#contact" className="button button--flex">
                 Say Hello

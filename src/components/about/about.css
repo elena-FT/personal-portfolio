@@ -36,11 +36,11 @@
 }
 
 .about__subtitle {
-    font-size: var(--tiny-font-size);
+    font-size: 0.700rem;
 }
 
 .about__description {
-    padding: 0 4rem 0 0;
+    padding: 0 3rem 0 0;
     margin-bottom: var(--mb-2-5);
 }
 

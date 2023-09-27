@@ -15,7 +15,7 @@ const About = () => {
                 <div className="about__data">
                     <Info />
                     <p className="about__description">
-                    Étudiante en 5ème année à l'EPITA, spécialisée en Santé, je suis passionnée par le développement, l'intelligence artificielle et le domaine de la santé.
+                    I am a 5th-year student at EPITA, specializing in Health, and I am passionate about development, artificial intelligence, and the field of healthcare.
                     </p>
                     <a download="" href={CV} className="button button--flex">Download CV
                     <svg
