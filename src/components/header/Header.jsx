@@ -30,7 +30,7 @@ const Header = () => {
 
                         <li className="nav__item">
                             <a href="#experiences" className="nav__link">
-                                <i className="uil uil-briefcase-alt nav__icon"></i> Expériences
+                                <i className="uil uil-briefcase-alt nav__icon"></i> Experiences
                             </a>
                         </li>
 

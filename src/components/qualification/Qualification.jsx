@@ -10,7 +10,7 @@ const Qualification = () => {
 
     return (
         <section className="qualification section" id="experiences">
-            <h2 className="section__title">Expériences</h2>
+            <h2 className="section__title">Experiences</h2>
             <span className="section__subtitle">My personal journey</span>
 
             <div className="qualification__container container">
@@ -34,7 +34,7 @@ const Qualification = () => {
                     }
                     onClick={() => toggleTab(2)}
                     >
-                        <i className="uil uil-briefcase-alt qualification__icon"></i> Expérience
+                        <i className="uil uil-briefcase-alt qualification__icon"></i> Experience
                     </div>
                 </div>
 

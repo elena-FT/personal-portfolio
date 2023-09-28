@@ -56,7 +56,7 @@ const Data = () => {
                 Etudiante en école d'ingénieur en informatique
             </h3>
             <p className="home__descriptio">
-            I am 21 years old and originally from Colmar. Curious, highly organized, and methodical, I enjoy taking on new challenges.
+            Inquisitive, highly organized, and methodical, I have a passion for tackling new challenges. I am actively seeking an internship opportunity starting in February in the field of computer science and healthcare.
             </p>
             <a href="#contact" className="button button--flex">
                 Say Hello

@@ -12,7 +12,7 @@ export const projectsData = [
     {
         id: 1,
         image: Work1,
-        title: "Segmentation cérébrale",
+        title: "BrainSegPy",
         description: "Segmentation cérébrale à l'aide de iSeg en Python. L'objectif était de segmenter les différentes matières du cerveau (blanches, grises, etc.)",
         langages: ["Python", "iSeg"],
         category: "ia",
@@ -21,7 +21,7 @@ export const projectsData = [
     {
         id: 2,
         image: Work2,
-        title: "Reconnaissance de bateaux",
+        title: "AIrrates of the Caribbean",
         description: "Développement d'un modèle de reconnaissance de neuf types de bateaux à partir d'images en utilisant Python.",
         langages: ["Python", "Tensorflow", "Keras"],
         category: "ia",
@@ -30,7 +30,7 @@ export const projectsData = [
     {
         id: 3,
         image: Work3,
-        title: "Montre IoT",
+        title: "BPM Watch",
         description: "Conception et fabrication d'une montre intelligente capable de mesurer et d'afficher les battements par minute (BPM).",
         langages: ["MicroPython"],
         category: "iot",
@@ -103,7 +103,7 @@ export const projectsNav = [
         name: 'app',
     },
     {
-        name: 'ia',
+        name: 'AI',
     },
     {
         name: 'iot',
