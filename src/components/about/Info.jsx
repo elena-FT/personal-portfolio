@@ -19,7 +19,7 @@ const Info = () => {
                     Completed
                 </h3>
                 <span className="about__subtitle">
-                    9 + Projets
+                    9+ Projets
                 </span>
             </div>
 
@@ -29,7 +29,7 @@ const Info = () => {
                     Technical Skills
                 </h3>
                 <span className="about__subtitle">
-                    10 + Languages
+                    10+ Languages
                 </span>
             </div>
         </div>

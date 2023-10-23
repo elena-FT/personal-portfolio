@@ -18,11 +18,13 @@
 
 .about__box {
     background-color: var(--mb-2);
-    border: 1px solid rgba(230,203,61,0.5);
+    border: 1px solid rgba(230, 203, 61, 0.5);
     border-radius: 0.75rem;
     text-align: center;
     padding: 1rem 1.25rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Ajoutez cette ligne pour l'ombre */
 }
+
 
 .about__icon {
     font-size: 1.5rem;
@@ -31,12 +33,12 @@
 }
 
 .about__title {
-    font-size: var(--small-font-size);
+    font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
 }
 
 .about__subtitle {
-    font-size: 0.700rem;
+    font-size: 0.800rem;
 }
 
 .about__description {

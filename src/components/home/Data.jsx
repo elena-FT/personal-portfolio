@@ -53,10 +53,11 @@ const Data = () => {
                   ></path>
             </svg></h1>
             <h3 className="home__subtitle">
-                Etudiante en école d'ingénieur en informatique
+                Health IT Engineer
             </h3>
             <p className="home__descriptio">
-            Inquisitive, highly organized, and methodical, I have a passion for tackling new challenges. I am actively seeking an internship opportunity starting in February in the field of computer science and healthcare.
+            Passionate, highly organized, and methodical, I am seeking a pre-employment internship starting in February in the field of healthcare-oriented 
+computer science. 
             </p>
             <a href="#contact" className="button button--flex">
                 Say Hello

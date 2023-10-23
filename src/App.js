@@ -7,6 +7,7 @@ import Qualification from './components/qualification/Qualification';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import Projects from './components/projects/Projects';
+import Resume from './components/qualification/Resume';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <Home />
         <About />
         <Skills />
-        <Qualification />
+        <Resume />
         <Projects />
         <Contact />
         <Footer />
