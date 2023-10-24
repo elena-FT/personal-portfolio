@@ -21,9 +21,6 @@ const Footer = () => {
                 </ul>
 
                 <div className="footer__social">
-                    <a href="https://www.instagram.com" className="footer__social-link" target="_blank" rel="noreferrer">
-                        <i className="bx bxl-instagram"></i>
-                    </a>
 
                     <a href="https://www.linkedin.com/in/elena-fouillet" className="footer__social-link" target="_blank" rel="noreferrer">
                         <i className="bx bxl-linkedin"></i>
