@@ -23,18 +23,35 @@ text-transform: capitalize;
 .work__item:hover {
   background-color: var(--title-color);
   color: var(--container-color);
+  cursor: pointer;
 }
 
 .work__card {
-  background-color: var(--container-color);
+  position: relative;
+  overflow: hidden;
   border: 1px solid rgba(0,0,0,0.1);
   padding: 1.25rem;
   border-radius: 1rem;
-  transition: transform 0.3s ease;
 }
 
-.work__card:hover {
-    transform: scale(1.05);
+.work__description {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.work__card:hover .work__description {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: white;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  z-index: 2;
 }
 
 .work__img {
@@ -50,11 +67,23 @@ text-transform: capitalize;
 }
 
 .work__button {
-  color: var(--text-color);
-  font-size: var(--small-font-size);
-  display: flex;
+  color: #fff;
+  position: absolute;
+  bottom: 1.5rem;
+  left: 1.5rem;
+  height: 40px;
+  width: 40px;
+  background-color: var(--color-yellow);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  cursor: pointer;
+  font-size: var(--h3-font-size);
+  display: block;
   align-items: center;
-  column-gap: 0.25rem;
+  opacity: 0;
+  transition: 0.3s;
+  z-index: 100;
 }
 
 .work__button-icon {
@@ -69,6 +98,45 @@ text-transform: capitalize;
 .active-work {
   background-color: var(--title-color);
   color: var(--container-color);
+}
+
+.work__mask {
+  position: absolute;
+  background: black;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  transition: 0.3s;
+  opacity: 0;
+}
+
+.work__card:hover .work__mask {
+  opacity: 0.8;
+}
+
+.work__category {
+  color: #fff;
+  background-color: #e55c4f;
+  border-bottom-left-radius: 0.98rem;
+  border-bottom-right-radius: 0.98rem;
+  position: absolute;
+  top: 0;
+  left: 1.5rem;
+  font-size: var(--small-font-size);
+  display: inline-block;
+  padding: 0.19rem 0.625rem;
+  transform: translateY(-40px);
+  transition: 0.3s;
+}
+
+.work__card:hover .work__button {
+  opacity: 1;
+}
+
+.work__card:hover .work__category {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /*=============== BREAKPOINTS ===============*/
