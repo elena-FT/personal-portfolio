@@ -56,7 +56,7 @@ const Data = () => {
                 Health IT Engineer
             </h3>
             <p className="home__descriptio">
-            Passionate, highly organized, and methodical, I am seeking a pre-employment internship starting in February in the field of healthcare-oriented 
+            Passionate, highly organized, and methodical, I am looking for a full-time position starting in September in the field of healthcare-oriented 
 computer science. 
             </p>
             <a href="#contact" className="button button--flex">
